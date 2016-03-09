@@ -10,21 +10,28 @@ window.onload = function() {
 
     // console.log(hide_mes.length);
 
-    for (i in hide_mes) {
+    // example:
+    //
+    // numbers.forEach(
+    //   function addNumber(value) { sum += value; }
+    // );
 
-      // console.log(i);
-
-      var element = hide_mes[i]
-
-      // console.log(element);
+    hide_mes.forEach(
+      function toggle(element) {
 
       if (element.style.display==="block")
         element.style.display="none";
       else
         element.style.display="block";
-    };
 
-  }); 
+      }
+
+    );
+    // end of forEach loop
+
+  });
+  // end of on click
 
 
 };
+// end of on load
