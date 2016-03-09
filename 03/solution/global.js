@@ -4,8 +4,6 @@ window.onload = function() {
 
   button.addEventListener("click", function() {
 
-    // console.log("toggle triggered");
-
     var hide_mes = document.getElementsByClassName('hide_me');
 
     var i;
@@ -16,11 +14,7 @@ window.onload = function() {
         else
           hide_mes[i].style.display="block";
     }
-    // end of for loop
 
   });
-  // end of on click
-
 
 };
-// end of on load
