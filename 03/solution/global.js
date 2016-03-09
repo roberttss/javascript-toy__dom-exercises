@@ -8,26 +8,15 @@ window.onload = function() {
 
     var hide_mes = document.getElementsByClassName('hide_me');
 
-    // console.log(hide_mes.length);
+    var i;
 
-    // example:
-    //
-    // numbers.forEach(
-    //   function addNumber(value) { sum += value; }
-    // );
-
-    hide_mes.forEach(
-      function toggle(element) {
-
-      if (element.style.display==="block")
-        element.style.display="none";
-      else
-        element.style.display="block";
-
-      }
-
-    );
-    // end of forEach loop
+    for (i = 0; i < hide_mes.length; i++) {
+        if (hide_mes[i].style.display==="block")
+          hide_mes[i].style.display="none";
+        else
+          hide_mes[i].style.display="block";
+    }
+    // end of for loop
 
   });
   // end of on click
