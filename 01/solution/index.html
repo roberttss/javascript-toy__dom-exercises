@@ -7,10 +7,8 @@
 
   <h1>Enter your phone number (ex: 402-555-0000):</h1>
     <form name="telephone">
-      <input type="text" name="first" maxlength=3 onkeyup="jSFunction(first, second)">
-      <!-- see if this works with integer input type after it is working -->
-      <!-- rename JS Function to something better -->
-      <input type="text" name="second" maxlength=3 onkeyup="jSFunction(second, third)">
+      <input type="text" name="first" maxlength=3 onkeyup="autoTab(first, second)">
+      <input type="text" name="second" maxlength=3 onkeyup="autoTab(second, third)">
       <input type="text" name="third" maxlength=4>
     </form>
 
