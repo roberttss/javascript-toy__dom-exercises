@@ -3,5 +3,4 @@ function autoTab(current, to) {
       current.value.length==current.getAttribute("maxlength")) {
         to.focus() 
         }
-
 }
