@@ -1,46 +1,27 @@
 # JS-Atomic 01: Phone Number Auto-Tab Fields
 
-Now that you can do output, it's time to start working with data and data types. In this atomic we'll just worry about *integers* and *strings* (later, we'll add on *booleans*, *floats*, *functions*, and *objects*).
+## Description
 
-There are two goals for this Atomic:
+JavaScript can create less work for an application's user. In this atomic, you will work with automatically moving the user's cursor to the next field in an HTML form.
 
-1. Learn to create, assign value to, and use variables
-2. Do output that mixes string literals with variables using concatenation
+## Tasks
 
-Create a file called **index.html** (use the starter code below if you want) and a file called **global.js**.
+Write Javascript that accomplishes the following tasks, in order:
 
-With Javascript, you'll want to:
+1. Ask the user (using `prompt()`) for their name, then assign that value to a well-named variable.
+2. Ask the user (using `prompt()`) for their age, then assign that value to a well-named variable.
+3. Ask the user (using `prompt()`) for their hometown, then assign that value to a well-named variable.
+4. Ask the user (using `prompt()`) for their favorite number, then assign that value to a well-named variable.
+5. Output each of those values using both `console.log()` and `alert()`. You can output the value itself with no context around it, but it's a better decision to use each of those values in a sentence. For example: "Your name is Aloysius."
 
-1. Create three variables: `name`, `age`, and `hairColor`
-2. Assign to each of those variables some reasonable value (for example, my `name` is "Andrew", my `age` is 29, and my `hairColor` is "Bright Pink") -- I don't care if you use your own information, that of a fictional character (or a cat!), or some mix thereof. `age` should be an integer (like `29`, not `"29"`); the other variables should be strings.
-3. Do three `alert()` statements, with output formatted like so:
-  - My name is Andrew.
-  - My age is 29.
-  - My hair color is Bright Pink.
-  - (Note how the values for each of these match the values I provided in step 2 exactly. Also: pay attention to whitespace and formatting).
-4. Make sure that the output statements you create in the previous step use the actual variables. Don't merely type out the same values again.
-5. Once you've gotten it working, change the values you assign to your variables (don't change the output statements at all), and see how your program changes as you run it. See what happens if you use `console.log()` instead of `alert()`. See what happens if you change `age` to be a string instead of an integer (e.g. to `"29"` instead of `29`).
+## Questions
 
-Once you're done with this, answer the following questions, formatted however you want in the body of your *index.html* file. (It might make sense to format them like you did for the questions in the "Output" section before this one.)
+Once you're done with the Javascript tasks, answer these questions in the body of your HTML file (formatted however makes the most sense -- maybe similar to how you've been doing it for previous atomics):
 
-1. Why don't you need to use the `var` keyword every time you use a variable (right now, we only use it when we create the variable)? What does `var` do?
-2. What happens if you try to do output with a variable without first assigning a value to that variable? What happens? Does the program still work as intended? Do error messages show up in the console? If so, what error message?
-3. What questions do you have?
-
----
-
-## index.html
-
-```html
-<!doctype HTML>
-<html>
-<head>
-  <title>JS Atomic 03</title>
-  <!-- Include your external Javascript file here -->
-</head>
-<body>
-  <h1>JS Atomic 03</h1>
-  <!-- Answer the 3 questions above here -->
-</body>
-</html>
-```
+1. What is the data-type (e.g. string or integer) of the information that comes in? What happens if the user inputs a number -- does it stay an integer? Use `typeof` and `console.log()` to help with this.
+2. What happens if the user clicks "OK" (or equivalent) without typing anything in? What information gets assigned to a variable, if any?
+3. How did you choose your variable names? If you gave a list of variable names to someone who hasn't seen your code, could they reasonably predict what information you might store in each?
+4. If you completely changed a question you were asking the user, would it make sense to totally rename the variable? What if you changed the order of your questions?
+5. In these exercises, we use `prompt()` to collect information, but most websites do that ask for information do not use `prompt()` -- how do they collect information (what HTML elements do they use)? What might be an advantage to doing it that way instead of with `prompt()`? Are there any disadvantages? Why might you use `prompt()`?
+6. Research `prompt()` -- is there any way to make it so that there are two (or more) fields?
+7. What questions do you have?
