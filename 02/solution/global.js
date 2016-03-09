@@ -2,14 +2,14 @@ window.onload = function() {
 
   var button = document.getElementById('button');
 
-  var hide_me = document.getElementById('hide_me');
+  button.addEventListener("click", function() {
 
-  button.addEventListener("click", function(hide_me) {
+    var hide_me = document.getElementById('hide_me');
 
-    if (hide_me.style.display=="block")
-      hide_me.style.display=="none"
+    if (hide_me.style.display==="block")
+      hide_me.style.display="none"
     else
-      hide_me.style.display=="block"
+      hide_me.style.display="block"
   });
 
 };
