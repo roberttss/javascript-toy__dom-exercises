@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener("load", function(){
 
   var button = document.getElementById('toggle_button');
 
@@ -17,4 +17,4 @@ window.onload = function() {
 
   });
 
-};
+});

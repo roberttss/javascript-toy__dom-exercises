@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener("load", function(){
 
   var button = document.getElementById('button');
 
@@ -11,4 +11,4 @@ window.onload = function() {
     }
   });
 
-};
+});

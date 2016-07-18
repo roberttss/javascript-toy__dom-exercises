@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener("load", function(){
 
   var area_code = document.getElementById('first');
   var middle_numbers = document.getElementById('second');
@@ -22,4 +22,4 @@ window.onload = function() {
     }
   });
 
-};
+});

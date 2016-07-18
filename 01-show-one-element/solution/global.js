@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener("load", function(){
 
   // 1. Get the DOM element which will be clicked.
   var more_link = document.getElementById("more_text_link");
@@ -18,4 +18,4 @@ window.onload = function() {
     more_link.style.display = "none";
   });
   
-};
+});

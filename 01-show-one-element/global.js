@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener("load", function(){
 
   // Here is some pseudo-code to help you get started:
 
@@ -14,4 +14,4 @@ window.onload = function() {
 
   // 5. Also modify the DOM to hide the "More info..." link.
   
-};
+});

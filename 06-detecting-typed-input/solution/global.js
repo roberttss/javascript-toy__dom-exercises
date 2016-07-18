@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener("load", function(){
 
   var name_field = document.getElementById("full_name");
 
@@ -10,4 +10,4 @@ window.onload = function() {
 
   });
 
-};
+});
