@@ -16,6 +16,6 @@ Your reply here...
 
 ---
 
-> Describe the "contract" for `addEventListener`.
+> Describe the the `addEventListener` method. (Remember that there is a specific, technical, methodical way to describe methods. Your reply should match that format.)
 
 Your reply here...
